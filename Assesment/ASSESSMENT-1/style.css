@@ -1,0 +1,728 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(image/mainbackground.jpg);
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* edu-header */
+#edu-header
+{
+    width: 100%;
+    height: 40px;
+    background-color: #1f272b;
+    display: flex;
+    flex-direction: row;
+}
+.eduinfo
+{
+    width: 70%;
+    height: auto;
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.edusocialmedia
+{
+    width: 30%;
+    height: auto;
+    padding: 8px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 8px;
+    letter-spacing: 9px;
+}
+
+/* edunavbar */
+.edunavbar
+{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250, 250, 250, 0.224);
+    position: sticky;
+    top: 0 !important;
+    z-index: 5;
+}
+.edu-logo
+{
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+.navbar
+{
+    width: 70%;
+    height: auto;
+    margin: 0;
+    margin-top: -1%;
+}
+.navbar ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 35px 0px 15px 30px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* eduslider */
+#slider
+{
+    width: 100%;
+    height: 600px;
+    background: url(image/background-1.jpg);
+    background-size: cover;
+    margin-top: -6.9%;
+    position: relative;
+}
+.caption
+{
+    padding-left: 30px;
+    margin-top: 10%;
+    position: absolute;
+}
+.caption h6
+{
+    margin-top: 25px;
+    padding-top: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+}
+.caption h2
+{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: white;
+}
+.caption p
+{
+    color: #fff;
+    font-size: 15px;
+    max-width: 570px;
+}
+.main-button-red a
+{
+    font-size: 15px;
+    color: #fff;
+    background-color: red;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: 27%;
+}
+
+/* eduslide */
+.edu-carsel-slide
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: -9%;
+    margin-left: 3%;
+    position: relative;
+}
+.edu-box
+{
+    width: 270px;
+    height: 250px;
+    background: url(image/slider.png);
+    border-radius: 20px;
+    margin-left: 2%;
+}
+.icon
+{
+    margin-left: 38%;
+    margin-top: 4%;
+}
+.down-content-1 h4
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.down-content-1 p
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+
+/* content starts hear */
+#edu-content 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;    
+}
+#edu-content h1 
+{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+#edu-content hr
+{
+    height: auto;
+    text-align: center;
+    border-bottom: solid 2px gray;
+    line-height: 0.1em;
+    margin: 10px 0px 20px;
+}
+
+/* meeting section */
+.edu-meetings
+{
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.edu-leftsidebar
+{
+    width: 26%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 3%;
+    border-radius: 20px;
+    background-color: white;
+}
+.categories
+{
+    border-radius: 22px;
+    margin-top: 5%;
+}
+.categories h4
+{
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+.categories .main-buttonred
+{
+    border-top: 2px solid;
+    text-align: center;
+    padding-top: 15px;
+    background-color: darkred;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    width: 80%;
+    height: 32px;
+    margin-bottom: 10%;
+    padding-left: 2%;
+    margin-left:5%;
+}
+.edu-rightsidebar
+{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block1
+{
+    width: 357px;
+    height: 280px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.block1 .down-content
+{
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    width: 296px;
+    height: 65px;
+    margin-left: 3%;
+}
+.block2
+{
+    width: 357px;
+    height: 350px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.block2 .down-content
+{
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    width: 318px;
+    height: 95px;
+    margin-left: 3%;
+}
+.thumb1
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 337px;
+    height: 215px;
+    margin-left: 3%;
+    background-image: url(image/meeting-01.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.thumb2
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 357px;
+    height: 215px;
+    margin-left: 3%;
+    background-image: url(image/meeting-04.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.thumb3
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 357px;
+    height: 215px;
+    margin-left: 3%;
+    background-image: url(image/meeting-03.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.thumb4
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 337px;
+    height: 215px;
+    margin-left: 3%;
+    background-image: url(image/meeting-02.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.price span
+{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 25%;
+    height: 28px;
+    text-align: center;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+.date
+{
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: -8%;
+}
+.date h6
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a12c2f;
+    font-size: 14px;
+    width: 5%;
+}
+.date h6 span
+{
+    display: block;
+    color: #1f272b;
+    font-size: 22px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+.down-content h4
+{
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: -2%;
+}
+.down-content p
+{
+    margin-left: 25px;
+    color: #1f272b;
+    font-size: 14px;
+    margin-top: -1%;
+}
+.meet
+{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+/* our cources */
+#our-courses
+{
+    width: 100%;
+    position: relative;
+}
+#our-courses h2
+{
+    font-size: 30px;
+    color: white;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+.section-heading
+{
+    width: 100%;    
+    height: 380px;
+    font-size: 18px;
+    display: flex;
+} 
+.item1
+{
+    width: 100%;
+}
+.item1 img 
+{
+    width: 100%;
+}
+.course1
+{
+    width: 25%;
+    height: 340px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.infoo
+{
+    display: inline;
+}
+.fa-star
+{
+    color: orange;  
+    font-size: 14px;
+    float: left;
+    margin-left: 3%;
+}
+.amount
+{
+color: darkred !important;
+float: right;
+padding-right: 5%;
+}
+.count
+{
+padding-left: 10px;
+}
+
+/* few facts about us */
+#con
+{
+    width: 100%;
+    background: url(image/background-1.jpg);
+}
+#con h2
+{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 50px;
+    color: white;
+    margin-left: 1%;
+}
+#content 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.rightsidebar
+{
+    width: 65%;
+    height: 550px;
+}
+.block3
+{
+    width: 28%;
+    height: 110px;
+    background-color: #5A5A5A;
+    border-radius: 20px;
+    float: left;
+    margin: 2px;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding: 25px 30px 35px 30px;
+}
+.count-area
+{
+    background-color: whitesmoke !important;
+    padding: 25px 30px 35px 30px;
+    margin: 15px 0px;
+}
+.count-digit
+{
+    color: orange;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+}
+.count-tittle
+{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.leftsidebar
+{
+    width: 35%;
+}
+.video
+{
+    margin-right: 10%;
+    margin-top: 12%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+/* enroll form */
+#contact
+{
+    color: white;
+    background-color: lightslategray;
+    display: inline-block;
+    border: none;
+    border-radius: 22px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 50PX;
+    margin-right: 40px;
+    height: 350px;
+    width: 100%;
+}
+.left-info
+{
+    padding: 30px;
+    display: inline-block;
+}
+#text
+{
+    width: auto;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 22px;
+}
+#message
+{
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    color: grey;
+    border: none;
+    border-radius: 22px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+fieldset input
+{
+    margin-right: 50px;
+}
+#form-submit
+{
+    color: white;
+    background-color: darkred;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-top: -2%;
+}
+.right-info
+{
+    color: white;
+    background-color: darkred;
+    border-radius: 22px;
+    display: inline-block;
+    border: none;
+    padding: 20px 60px;
+    margin:  0 auto;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+#applyhear
+{
+    font-size: larger;
+    background: url(image/apply.jpg);
+    width: 100%;
+    height: 900px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.applyleft
+{
+    width: 50%;
+    height: 400;
+    color: white;
+    position: absolute;
+    margin-top: 8%;
+}
+.applyleft1
+{
+    background-color: rgb(151, 175, 196);
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    background-color: rgba(250, 250, 250, 0.244)
+}
+.applyleft1 h3
+{
+    font-size: 19px;
+}
+.main-buttonred a
+{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: red;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.applyleft2
+{
+    background-color: rgb(151, 175, 196);
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    background-color: rgba(250, 250, 250, 0.244)
+}
+.main-button-orange a
+{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: orange;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.applyleft1 h2
+{
+    font-size: 19px;
+}
+
+.applyright
+{
+    width: 45%;
+    height: 650px;
+    background-color: white;
+    float: right;
+    margin-top: 7%;
+    margin-right: 5%;
+    border-radius: 22px;
+}
+.template-head span
+{
+    color: black;
+    font-weight: 800;
+    border-bottom: none;
+    padding-left: 25px;
+}
+.template-head span:hover
+{
+    color: orange;
+    font-weight: 800;
+    border-bottom: none;
+    padding-left: 25px;
+}
+.template-head .i
+{
+    transform: rotate(90deg);
+
+}
+.template-body
+{
+    height: 120px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.fa-chevron-right
+{
+    margin-left: 5%;
+}
+
+
+
+        .dropdown
+        {
+            position: relative;
+        }
+        .dropdown-menu
+        {
+            position: absolute;
+            display: none;
+            width: 190px !important;
+            height: 100px;
+            background-color: white;
+            margin-top: 20%;
+        }
+        .dropdown:hover .dropdown-menu
+        {
+            display: block;
+            position: absolute;
+        }
+        .dropdown-menu li 
+        {
+            padding: 5px 5px !important;
+            padding-top: 15px !important;
+        }
