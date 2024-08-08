@@ -1,0 +1,26 @@
+.brand-title img
+{
+    width: 70%;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+#navbarSupportedContent
+{
+    margin-left: 60%;
+}
+.navbar
+{
+    background-color: #333;
+}
+.navbar-nav .nav-link
+{
+    color: white !important;
+}
+@media only screen and (min-width:270px) and (max-width:1280px)
+{
+    #navbarSupportedContent
+{
+    margin-left: 3% !important;
+}
+}
